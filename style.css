@@ -68,11 +68,14 @@ h1, button {
 button {
   background: #3882F6;
   border-radius: 8px;
-  border: none;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   padding: 7px 32px;
   font-size: 18px;
+}
+
+.top-container button {
+  border: none;
 }
 
 .img-placeholder-1 {
@@ -141,4 +144,36 @@ h2 {
   margin-top: 0;
   font-weight: bold;
   font-size: 24px;
+}
+
+/***Banner section***/
+.banner-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-banner {
+  background: #3882F6;
+  border-radius: 8px;
+  width: 900px;
+  margin: 100px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  color: #f9faf8;
+}
+
+h3 {
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+.banner-section p {
+  margin-top: 0;
+}
+
+.banner-section button {
+  border: 2px solid #f9faf8;
+  align-self: center;
 }
