@@ -1,0 +1,21 @@
+.top-section {
+  background: #1F2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+
+}
