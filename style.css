@@ -24,6 +24,7 @@ footer {
   background: #F2F2F2;
 }
 
+/***Header***/
 .header {
   display: flex;
   justify-content: space-between;
@@ -34,7 +35,7 @@ footer {
 
 /***Top section***/
 .top-section {
-  background-image: linear-gradient(to bottom right, #9EDBF3,#00CBCA, #000000);
+  background-image: -webkit-linear-gradient(left top, #9EDBF3,#00CBCA, #000000);
   color: black;
   padding: 120px;
   display: flex;
@@ -132,7 +133,7 @@ h2 {
 }
 
 .card-text {
-  color: #black
+  color: black;
 }
 
 /***Quote section***/
@@ -162,7 +163,7 @@ h2 {
 }
 
 .sign-up-banner {
-  background-image: linear-gradient(to bottom right, #9EDBF3, #00CBCA, #00CBCA, #000000);
+  background-image: -webkit-linear-gradient(left top, #9EDBF3, #00CBCA, #00CBCA, #000000);
   border-radius: 8px;
   width: 900px;
   margin: 100px;
