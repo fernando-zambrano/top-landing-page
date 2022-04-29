@@ -13,7 +13,6 @@ body {
 
 a,
 h2,
-.top-section,
 footer {
   color: #1d3536;
 
@@ -35,8 +34,8 @@ footer {
 
 /***Top section***/
 .top-section {
-  background: #9EDBF3; /*76D7F0*/
-  color: #1d3536;
+  background-image: linear-gradient(to bottom right, #9EDBF3,#00CBCA, #000000);
+  color: black;
   padding: 120px;
   display: flex;
   justify-content: space-between;
@@ -76,7 +75,7 @@ h1 {
 }
 
 button {
-  background: #1d3536;
+  background: black;
   color: #f9faf8;
   border: none;
   border-radius: 8px;
@@ -133,7 +132,7 @@ h2 {
 }
 
 .card-text {
-  color: #1F2937
+  color: #black
 }
 
 /***Quote section***/
@@ -163,14 +162,14 @@ h2 {
 }
 
 .sign-up-banner {
-  background: #388185;
+  background-image: linear-gradient(to bottom right, #9EDBF3, #00CBCA, #00CBCA, #000000);
   border-radius: 8px;
   width: 900px;
   margin: 100px;
   padding: 30px;
   display: flex;
   justify-content: space-around;
-  color: #f9faf8;
+  color: black;
 }
 
 h3 {
