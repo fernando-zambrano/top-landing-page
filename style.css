@@ -13,7 +13,8 @@ body {
 
 a,
 h2,
-footer {
+footer,
+#slogan {
   color: #1d3536;
 
 }
@@ -32,6 +33,20 @@ footer {
   border-bottom: 2px solid #1d3536;
   padding: 4px 120px;
 }
+
+#logo {
+  width: 120px;
+}
+
+.logo-container {
+  display: flex;
+}
+
+#slogan {
+  align-self: center;
+  font-size: larger;
+}
+
 
 /***Top section***/
 .top-section {
