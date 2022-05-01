@@ -14,7 +14,7 @@ body {
 a,
 h2,
 footer,
-#slogan {
+.slogan {
   color: #1d3536;
 
 }
@@ -34,17 +34,17 @@ footer {
   padding: 4px 120px;
 }
 
-#logo {
-  width: 120px;
+.logo {
+  width: 110px;
 }
 
 .logo-container {
   display: flex;
 }
 
-#slogan {
+.slogan {
   align-self: center;
-  font-size: larger;
+  font-size: large;
 }
 
 
@@ -113,7 +113,6 @@ button:hover {
 .top-section img {
   border: 2px solid #1d3536;
   border-radius: 50px;
-  box-shadow: inset;
 }
 
 /***Info section***/
